@@ -203,3 +203,6 @@
     padding: 50px;
     
   } 
+  #menuFooter{
+    list-style: none;
+  }
