@@ -5,11 +5,11 @@
     font-family : Poppins;
     
   }
-  /* body{
+  body{
    border-style: solid;
     border-radius: 5px;
   
-  } */
+  }
   .start{
     background:linear-gradient(120deg, transparent 50% , orange 50% );
     height: 45em;
@@ -185,6 +185,24 @@
   .docker{
     background-color: #E1EBE6;
     align-items: center;
+  }
+  .docker1{
+    float: left;
+  }
+  .docker2{
+    float: right;
+    
+  }
+
+  .check1{
+      height: 500px;
+      margin-right: -24px;
+    position: absolute;
+    margin-top: 76px;
+  }
+
+  .check2{
+      height: 580px;
   }
 
   .app{
