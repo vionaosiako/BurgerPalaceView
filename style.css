@@ -186,3 +186,12 @@
     background-color: #E1EBE6;
     align-items: center;
   }
+
+  .app{
+    clear: both;
+    background-color:   #ffbf00;
+   display: grid;
+  }
+  .appPic{
+      float: right;
+  }
