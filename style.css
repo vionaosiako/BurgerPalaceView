@@ -80,6 +80,7 @@
   .burger{
     float: left;
   }
+  
   .column1{
      float: left;
     width: 45%;
@@ -102,6 +103,10 @@
     box-sizing: border-box;
   
   }
+  .home{
+      display: flex;
+      
+  }
   .column2{
     float: right;
     width: 45%;
@@ -123,6 +128,10 @@
     border-radius: 10px 10px 0 10px;
  padding: 20px;
    }
+   .intro{
+       clear: both;
+    background-color: #E1EBE6;
+   }
 .flex-container{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -130,7 +139,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #E1EBE6;
+    
     
 }
 
@@ -149,5 +158,27 @@
     color:  #ffbf00;
   }
   .product{
-      background-color: #ffffff;
+    background-color: #ffffff;
+    border-style: groove;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    height: 500PX;
+    width: 30%;
+  }
+
+  .product img{
+      height: 300px;
+      width: 300px;
+  }
+
+  .cart{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E1EBE6;
+  }
+
+  .cart img{
+      height: 20px;
+      width: 20px;
   }
