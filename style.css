@@ -195,3 +195,11 @@
   .appPic{
       float: right;
   }
+  #footer{
+    clear: both;;
+    background-color: #E1EBE6;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+  } 
