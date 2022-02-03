@@ -175,12 +175,13 @@
   .cart{
     display: flex;
     justify-content: space-around;
-    background-color: #E1EBE6;
+    
   }
 
   .cart img{
       height: 20px;
       width: 20px;
+      background-color: #E1EBE6;
   }
   .docker{
     background-color: #E1EBE6;
